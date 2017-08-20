@@ -1,10 +1,12 @@
 const express = require('express');
+const morgan = require('morgan');
 const SwitchMateManager = require('./lib/SwitchMateManager');
 const config = require('./config');
 
 SwitchMateManager.init(config);
 
 const app = express();
+app.use(morgan('combined'));
 
 app.get('/:state/:name', (req, res) => {
   const { state, name } = req.params;
