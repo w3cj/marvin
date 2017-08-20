@@ -1,15 +1,15 @@
 module.exports = {
   devices: [{
     name: 'living-room',
-    id: '5974d36b98c949eabec7a8ae148d4443',
+    id: 'f9c2c60d8014',
     auth: 'ihsYJw==',
   }, {
     name: 'entry',
-    id: '19eddb5eb7ce4407b02b6549e511ea5e',
+    id: 'f39acac09a37',
     auth: '6hnv6Q==',
   }, {
     name: 'bedroom',
-    id: 'a5035299776b4acba8c91bd1b4bd3e9e',
+    id: 'e5628a1b0294',
     auth: 'fSk5BQ==',
   }],
 };
