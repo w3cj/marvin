@@ -2,7 +2,7 @@ module.exports = {
   devices: [{
     name: 'living-room',
     id: 'f9c2c60d8014',
-    auth: 'ihsYJw==',
+    auth: 'DFMYJg==',
   }, {
     name: 'entry',
     id: 'f39acac09a37',
